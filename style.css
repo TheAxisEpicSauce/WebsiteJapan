@@ -31,6 +31,45 @@ background-color: #FE9A2E;
 height: 100px;
 }
 
+#menu li 
+{
+float: left;
+}
+
+#menu ul
+{ 
+list-style-type: none;
+vertical-align: top;
+text-align: center; 
+height: 50px;
+margin: 0;
+padding: 0; 
+display:block;
+overflow: hidden;
+}
+
+a.mtxt:link,a.mtxr:visited
+{
+color: black;
+display:block;
+background-color: #FE9A2E;
+text-decoration: none;
+font-family: "CODE-light";
+width: 100px;
+padding: 17px; 
+}
+a.mtxt:hover{background-color: #FFAF58}
+
+#menu
+{
+border-style: solid;
+height: 50px;
+background-color: #FE9A2E;
+border-left-style: none;
+border-right-style: none;	
+border-bottom-style: none;
+}
+
 #title
 {
 text-align: center;
