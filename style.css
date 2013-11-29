@@ -60,7 +60,7 @@ overflow: hidden;
 
 a.mtxt:link,a.mtxr:visited
 {
-font-size: 22px; 
+font-size: 20px; 
 color: black;
 display:block;
 background-color: #FE9A2E;
@@ -121,4 +121,9 @@ border-left-style: none;
 border-right-style: none;
 height: 30px;
 background-color: white;	
+}
+
+.onigiri
+{
+width:175px;height:175px;position:absolute;pointer-events:none;top:10px;left:275px;z-index:100;
 }
