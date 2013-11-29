@@ -31,6 +31,16 @@ background-color: #FE9A2E;
 height: 100px;
 }
 
+#menu
+{
+border-style: solid;
+height: 50px;
+background-color: #FE9A2E;
+border-left-style: none;
+border-right-style: none;	
+border-bottom-style: none;
+}
+
 #menu li 
 {
 float: left;
@@ -50,25 +60,17 @@ overflow: hidden;
 
 a.mtxt:link,a.mtxr:visited
 {
+font-size: 22px; 
 color: black;
 display:block;
 background-color: #FE9A2E;
 text-decoration: none;
 font-family: "CODE-light";
-width: 100px;
+width: 116px;
 padding: 17px; 
 }
-a.mtxt:hover{background-color: #FFAF58}
-
-#menu
-{
-border-style: solid;
-height: 50px;
-background-color: #FE9A2E;
-border-left-style: none;
-border-right-style: none;	
-border-bottom-style: none;
-}
+a.mtxt:hover,a.mtxr:active
+{background-color: #FFAF58}
 
 #title
 {
