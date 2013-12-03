@@ -147,7 +147,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 11747,
+				"buffer_size": 11774,
 				"line_ending": "Windows"
 			}
 		},
@@ -155,7 +155,7 @@
 			"file": "tokyo.html",
 			"settings":
 			{
-				"buffer_size": 11733,
+				"buffer_size": 11760,
 				"line_ending": "Windows"
 			}
 		},
@@ -163,7 +163,7 @@
 			"file": "land.html",
 			"settings":
 			{
-				"buffer_size": 11742,
+				"buffer_size": 11769,
 				"line_ending": "Windows"
 			}
 		},
@@ -171,7 +171,7 @@
 			"file": "eten.html",
 			"settings":
 			{
-				"buffer_size": 11742,
+				"buffer_size": 11769,
 				"line_ending": "Windows"
 			}
 		},
@@ -179,7 +179,7 @@
 			"file": "anime.html",
 			"settings":
 			{
-				"buffer_size": 11733,
+				"buffer_size": 11759,
 				"line_ending": "Windows"
 			}
 		},
@@ -187,7 +187,7 @@
 			"file": "muziek.html",
 			"settings":
 			{
-				"buffer_size": 11736,
+				"buffer_size": 11763,
 				"line_ending": "Windows"
 			}
 		},
@@ -195,7 +195,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 1597,
+				"buffer_size": 1610,
 				"line_ending": "Windows"
 			}
 		}
@@ -227,9 +227,14 @@
 	},
 	"file_history":
 	[
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Raphael/Documents/School/WP/self/Site1/default.css",
 		"/C/Users/Raphael/Documents/School/WP/self/Site1/Mainpage.html",
-		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/style.css",
+		"/C/Users/Raphael/Documents/School/WP/self/Startpage/style.css",
+		"/C/Users/Raphael/Documents/School/WP/self/Startpage/Startpage.html",
 		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/muziek.html",
+		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/style.css",
 		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/anime.html",
 		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/eten.html",
 		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/land.html",
@@ -240,10 +245,7 @@
 		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/.gitignore",
 		"/C/Users/Raphael/Documents/School/WP/website/index.html",
 		"/C/Users/Raphael/Documents/School/WP/website/style.css",
-		"/C/Users/Raphael/Documents/School/WP/self/Startpage/style.css",
 		"/C/Users/Raphael/Documents/School/WP/Periode2-site/default.html",
-		"/C/Users/Raphael/Documents/School/WP/self/Startpage/Startpage.html",
-		"/C/Users/Raphael/Documents/School/WP/self/Site1/default.css",
 		"/C/Users/Raphael/Documents/School/WP/self/Site1/Start.html",
 		"/C/Users/Raphael/Documents/School/WP/self/Site1/Default.html",
 		"/C/Users/Raphael/Documents/School/WP/Bruce/startpage/main.html",
@@ -308,7 +310,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -317,7 +319,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11747,
+						"buffer_size": 11774,
 						"regions":
 						{
 						},
@@ -345,7 +347,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11733,
+						"buffer_size": 11760,
 						"regions":
 						{
 						},
@@ -373,7 +375,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11742,
+						"buffer_size": 11769,
 						"regions":
 						{
 						},
@@ -401,7 +403,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11742,
+						"buffer_size": 11769,
 						"regions":
 						{
 						},
@@ -429,7 +431,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11733,
+						"buffer_size": 11759,
 						"regions":
 						{
 						},
@@ -457,15 +459,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 11736,
+						"buffer_size": 11763,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								385,
+								385
 							]
 						],
 						"settings":
@@ -491,15 +493,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1597,
+						"buffer_size": 1610,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1325,
+								1325
 							]
 						],
 						"settings":
@@ -507,7 +509,7 @@
 							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1050.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

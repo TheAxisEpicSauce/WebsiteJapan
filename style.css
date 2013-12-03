@@ -58,7 +58,7 @@ display:block;
 overflow: hidden;
 }
 
-a.mtxt:link,a.mtxr:visited
+a.mtxthome:link,a.mtxthome:visited
 {
 font-size: 20px; 
 color: black;
@@ -69,8 +69,79 @@ font-family: "CODE-light";
 width: 116px;
 padding: 17px; 
 }
-a.mtxt:hover,a.mtxr:active
-{background-color: #FFAF58}
+a.mtxthome:hover,a.mtxthome:active
+{background-image: url(img/menuhome.png);}
+
+a.mtxttokyo:link,a.mtxttokyo:visited
+{
+font-size: 20px; 
+color: black;
+display:block;
+background-color: #FE9A2E;
+text-decoration: none;
+font-family: "CODE-light";
+width: 116px;
+padding: 17px; 
+}
+a.mtxttokyo:hover,a.mtxttokyo:active
+{background-image: url(img/menutokyo.png);}
+
+a.mtxtland:link,a.mtxtland:visited
+{
+font-size: 20px; 
+color: black;
+display:block;
+background-color: #FE9A2E;
+text-decoration: none;
+font-family: "CODE-light";
+width: 116px;
+padding: 17px; 
+}
+a.mtxtland:hover,a.mtxtland:active
+{background-image: url(img/menuland.png);}
+
+a.mtxteten:link,a.mtxteten:visited
+{
+font-size: 20px; 
+color: black;
+display:block;
+background-color: #FE9A2E;
+text-decoration: none;
+font-family: "CODE-light";
+width: 116px;
+padding: 17px; 
+}
+a.mtxteten:hover,a.mtxteten:active
+{background-image: url(img/menueten.png);}
+
+a.mtxtanime:link,a.mtxtanime:visited
+{
+font-size: 20px; 
+color: black;
+display:block;
+background-color: #FE9A2E;
+text-decoration: none;
+font-family: "CODE-light";
+width: 116px;
+padding: 17px; 
+}
+a.mtxtanime:hover,a.mtxtanime:active
+{background-image: url(img/menuanime.png);}
+
+a.mtxtmuziek:link,a.mtxtmuziek:visited
+{
+font-size: 20px; 
+color: black;
+display:block;
+background-color: #FE9A2E;
+text-decoration: none;
+font-family: "CODE-light";
+width: 116px;
+padding: 17px; 
+}
+a.mtxtmuziek:hover,a.mtxtmuziek:active
+{background-image: url(img/menumuziek.png);}
+
 
 #title
 {
@@ -125,5 +196,11 @@ background-color: white;
 
 .onigiri
 {
-width:175px;height:175px;position:absolute;pointer-events:none;top:10px;left:275px;z-index:100;
+width:175px;
+height:175px;
+position:absolute;
+pointer-events:none;
+top:10px;
+text-align: center;
+z-index:100;
 }
