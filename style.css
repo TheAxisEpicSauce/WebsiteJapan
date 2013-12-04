@@ -2,12 +2,13 @@ body
 {
 margin: 0;
 padding: 0;	
+background-color: black;
 }
 
 .background
 {
 position:fixed;
-z-index:-1;
+z-index:-100;
 left:0;
 top:0;
 width:100%;
@@ -16,6 +17,7 @@ height:100%
 
 .container
 {
+
 width: 900px;
 margin-left: auto;
 margin-right: auto;
@@ -23,17 +25,30 @@ margin-top: 80px;
 margin-bottom: 80px;
 border-style: double;
 border-width: 5px;
+border-radius: 100px;
+
 }
 
+.innercontainer
+{
+width: 900px;
+margin: 0;
+padding: 0;
+background-color: #FE9A2E;
+border-width: 0;
+border-style: none;	
+border-radius: 95px;
+overflow: hidden;
+}
 .header
 {
-background-color: #FE9A2E;
 height: 100px;
 }
 
-#menu
+#nav
 {
-border-style: solid;
+z-index: 100;	
+border: solid #FE9A2E;
 height: 50px;
 background-color: #FE9A2E;
 border-left-style: none;
@@ -41,12 +56,12 @@ border-right-style: none;
 border-bottom-style: none;
 }
 
-#menu li 
+#nav li 
 {
 float: left;
 }
 
-#menu ul
+#nav ul
 { 
 list-style-type: none;
 vertical-align: top;
@@ -65,12 +80,15 @@ color: black;
 display:block;
 background-color: #FE9A2E;
 text-decoration: none;
-font-family: "CODE-light";
+font-family: "Brush Script MT""Brush Script STD";
 width: 116px;
 padding: 17px; 
+font-weight: bold; 
 }
-a.mtxthome:hover,a.mtxthome:active
-{background-image: url(img/menuhome.png);}
+a.mtxthome:hover
+{font-family:"invisible";background-image: url(img/menuhome.png);}
+a.mtxthome:active
+{font-family:"invisible";background-image: url(img/menuhomeactive.png);}
 
 a.mtxttokyo:link,a.mtxttokyo:visited
 {
@@ -79,12 +97,15 @@ color: black;
 display:block;
 background-color: #FE9A2E;
 text-decoration: none;
-font-family: "CODE-light";
+font-family: "Brush Script MT""Brush Script STD";
 width: 116px;
 padding: 17px; 
+font-weight: bold; 
 }
 a.mtxttokyo:hover,a.mtxttokyo:active
-{background-image: url(img/menutokyo.png);}
+{font-family:"invisible";background-image: url(img/menutokyo.png);}
+a.mtxttokyo:active
+{font-family:"invisible";background-image: url(img/menutokyoactive.png);}
 
 a.mtxtland:link,a.mtxtland:visited
 {
@@ -93,12 +114,15 @@ color: black;
 display:block;
 background-color: #FE9A2E;
 text-decoration: none;
-font-family: "CODE-light";
+font-family: "Brush Script MT""Brush Script STD";
 width: 116px;
 padding: 17px; 
+font-weight: bold; 
 }
-a.mtxtland:hover,a.mtxtland:active
-{background-image: url(img/menuland.png);}
+a.mtxtland:hover
+{font-family:"invisible";background-image: url(img/menuland.png);}
+a.mtxtland:active
+{font-family:"invisible";background-image: url(img/menulandactive.png);}
 
 a.mtxteten:link,a.mtxteten:visited
 {
@@ -107,12 +131,15 @@ color: black;
 display:block;
 background-color: #FE9A2E;
 text-decoration: none;
-font-family: "CODE-light";
+font-family: "Brush Script MT""Brush Script STD";
 width: 116px;
 padding: 17px; 
+font-weight: bold; 
 }
 a.mtxteten:hover,a.mtxteten:active
-{background-image: url(img/menueten.png);}
+{font-family:"invisible";background-image: url(img/menueten.png);}
+a.mtxteten:active
+{font-family:"invisible";background-image: url(img/menuetenactive.png);}
 
 a.mtxtanime:link,a.mtxtanime:visited
 {
@@ -121,13 +148,15 @@ color: black;
 display:block;
 background-color: #FE9A2E;
 text-decoration: none;
-font-family: "CODE-light";
+font-family: "Brush Script MT""Brush Script STD";
 width: 116px;
-padding: 17px; 
+padding: 17px;
+font-weight: bold; 
 }
 a.mtxtanime:hover,a.mtxtanime:active
-{background-image: url(img/menuanime.png);}
-
+{font-family:"invisible";background-image: url(img/menuanime.png);}
+a.mtxtanime:active
+{font-family:"invisible";background-image: url(img/menuanimeactive.png);}
 a.mtxtmuziek:link,a.mtxtmuziek:visited
 {
 font-size: 20px; 
@@ -135,19 +164,21 @@ color: black;
 display:block;
 background-color: #FE9A2E;
 text-decoration: none;
-font-family: "CODE-light";
+font-family: "Brush Script MT""Brush Script STD";
 width: 116px;
 padding: 17px; 
+font-weight: bold; 
 }
 a.mtxtmuziek:hover,a.mtxtmuziek:active
-{background-image: url(img/menumuziek.png);}
-
+{font-family:"invisible";background-image: url(img/menumuziek.png);}
+a.mtxtmuziek:active
+{font-family:"invisible";background-image: url(img/menumuziekactive.png);}
 
 #title
 {
+pointer-events: none;	
 text-align: center;
-font-family: "CODE-light";
-font-weight: bold;	
+font-family: "rage italic";	
 font-size: 110px;	
 }
 
@@ -168,19 +199,19 @@ margin: 100px;
 #textitle
 {
 text-align: center;
-font-family: "CODE-light";
-font-weight: bold;		
-font-size: 30px;		
+font-family: "rage italic";		
+font-size: 40px;		
 }
 
 .text
 {
-margin: 30px;	
+margin: 30px;
+font-family: "arial"	
 }
 
 .bottom
 {
-background-color: #FE9A2E;
+
 height: 100px; 	
 }
 
