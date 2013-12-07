@@ -24,7 +24,7 @@ margin-right: auto;
 margin-top: 80px;
 margin-bottom: 80px;
 border-style: double;
-border-width: 5px;
+border-width: 6px;
 border-radius: 100px;
 
 }
@@ -75,110 +75,75 @@ overflow: hidden;
 
 a.mtxthome:link,a.mtxthome:visited
 {
-font-size: 20px; 
-color: black;
 display:block;
-background-color: #FE9A2E;
 text-decoration: none;
-font-family: "Brush Script MT""Brush Script STD";
+background-image: url(img/menuhome.png);
 width: 116px;
-padding: 17px; 
-font-weight: bold; 
+padding: 17px;  
 }
 a.mtxthome:hover
-{font-family:"invisible";background-image: url(img/menuhome.png);}
-a.mtxthome:active
-{font-family:"invisible";background-image: url(img/menuhomeactive.png);}
+{background-image: url(img/menuhomeactive.png);}
 
 a.mtxttokyo:link,a.mtxttokyo:visited
 {
-font-size: 20px; 
-color: black;
 display:block;
-background-color: #FE9A2E;
 text-decoration: none;
-font-family: "Brush Script MT""Brush Script STD";
+background-image: url(img/menutokyo.png);
 width: 116px;
-padding: 17px; 
-font-weight: bold; 
+padding: 17px;  
 }
 a.mtxttokyo:hover,a.mtxttokyo:active
-{font-family:"invisible";background-image: url(img/menutokyo.png);}
-a.mtxttokyo:active
-{font-family:"invisible";background-image: url(img/menutokyoactive.png);}
+{;background-image: url(img/menutokyoactive.png);}
 
 a.mtxtland:link,a.mtxtland:visited
 {
-font-size: 20px; 
-color: black;
 display:block;
-background-color: #FE9A2E;
 text-decoration: none;
-font-family: "Brush Script MT""Brush Script STD";
+background-image: url(img/menuland.png);
 width: 116px;
-padding: 17px; 
-font-weight: bold; 
+padding: 17px;  
 }
 a.mtxtland:hover
-{font-family:"invisible";background-image: url(img/menuland.png);}
-a.mtxtland:active
-{font-family:"invisible";background-image: url(img/menulandactive.png);}
+{;background-image: url(img/menulandactive.png);}
 
 a.mtxteten:link,a.mtxteten:visited
 {
-font-size: 20px; 
-color: black;
 display:block;
-background-color: #FE9A2E;
 text-decoration: none;
-font-family: "Brush Script MT""Brush Script STD";
+background-image: url(img/menueten.png);
 width: 116px;
-padding: 17px; 
-font-weight: bold; 
+padding: 17px;  
 }
 a.mtxteten:hover,a.mtxteten:active
-{font-family:"invisible";background-image: url(img/menueten.png);}
-a.mtxteten:active
-{font-family:"invisible";background-image: url(img/menuetenactive.png);}
+{;background-image: url(img/menuetenactive.png);}
 
 a.mtxtanime:link,a.mtxtanime:visited
 {
-font-size: 20px; 
-color: black;
 display:block;
-background-color: #FE9A2E;
 text-decoration: none;
-font-family: "Brush Script MT""Brush Script STD";
+background-image: url(img/menuanime.png);
 width: 116px;
-padding: 17px;
-font-weight: bold; 
+padding: 17px;  
 }
 a.mtxtanime:hover,a.mtxtanime:active
-{font-family:"invisible";background-image: url(img/menuanime.png);}
-a.mtxtanime:active
-{font-family:"invisible";background-image: url(img/menuanimeactive.png);}
+{;background-image: url(img/menuanimeactive.png);}
+
 a.mtxtmuziek:link,a.mtxtmuziek:visited
 {
-font-size: 20px; 
-color: black;
 display:block;
-background-color: #FE9A2E;
 text-decoration: none;
-font-family: "Brush Script MT""Brush Script STD";
+background-image: url(img/menumuziek.png);
 width: 116px;
-padding: 17px; 
-font-weight: bold; 
+padding: 17px;  
 }
 a.mtxtmuziek:hover,a.mtxtmuziek:active
-{font-family:"invisible";background-image: url(img/menumuziek.png);}
-a.mtxtmuziek:active
-{font-family:"invisible";background-image: url(img/menumuziekactive.png);}
+{;background-image: url(img/menumuziekactive.png);}
 
 #title
 {
 pointer-events: none;	
 text-align: center;
-font-family: "rage italic";	
+	
 font-size: 110px;	
 }
 
@@ -187,6 +152,7 @@ font-size: 110px;
 background-color: white;
 height: relative;	
 border-style: solid;
+border-width: 2px;
 border-left-style: none;
 border-right-style: none;
 }
@@ -199,7 +165,7 @@ margin: 100px;
 #textitle
 {
 text-align: center;
-font-family: "rage italic";		
+font-family: "Brush Script MT""Brush Script STD";	
 font-size: 40px;		
 }
 

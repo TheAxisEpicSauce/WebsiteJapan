@@ -1,0 +1,604 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"ta",
+				"target	Attr"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"border-st",
+				"border-top-style"
+			],
+			[
+				"tx",
+				"text-decoration"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"imga",
+				"border-image-repeat"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"he",
+				"head	Tag"
+			],
+			[
+				"ba",
+				"background-image"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"border",
+				"border-top-style"
+			],
+			[
+				"h",
+				"height	Attr"
+			],
+			[
+				"bak",
+				"background-image"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"bord",
+				"border-width"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"border-",
+				"border-width"
+			],
+			[
+				"backgrou",
+				"background-color"
+			],
+			[
+				"im",
+				"background-image"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font"
+			],
+			[
+				"heigh",
+				"height"
+			],
+			[
+				"ima",
+				"background-image"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"o",
+				"ol	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 12023,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tokyo.html",
+			"settings":
+			{
+				"buffer_size": 11995,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "land.html",
+			"settings":
+			{
+				"buffer_size": 12004,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "eten.html",
+			"settings":
+			{
+				"buffer_size": 12004,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "anime.html",
+			"settings":
+			{
+				"buffer_size": 11994,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "muziek.html",
+			"settings":
+			{
+				"buffer_size": 11998,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "body\n{\nmargin: 0;\npadding: 0;	\nbackground-color: black;\n}\n\n.background\n{\nposition:fixed;\nz-index:-100;\nleft:0;\ntop:0;\nwidth:100%;\nheight:100%\n}\n\n.container\n{\n\nwidth: 900px;\nmargin-left: auto;\nmargin-right: auto;\nmargin-top: 80px;\nmargin-bottom: 80px;\nborder-style: double;\nborder-width: 5px;\nborder-radius: 100px;\n\n}\n\n.innercontainer\n{\nwidth: 900px;\nmargin: 0;\npadding: 0;\nbackground-color: #FE9A2E;\nborder-width: 0;\nborder-style: none;	\nborder-radius: 95px;\noverflow: hidden;\n}\n.header\n{\nheight: 100px;\n}\n\n#nav\n{\nz-index: 100;	\nborder: solid #FE9A2E;\nheight: 50px;\nbackground-color: #FE9A2E;\nborder-left-style: none;\nborder-right-style: none;	\nborder-bottom-style: none;\n}\n\n#nav li \n{\nfloat: left;\n}\n\n#nav ul\n{ \nlist-style-type: none;\nvertical-align: top;\ntext-align: center; \nheight: 50px;\nmargin: 0;\npadding: 0; \ndisplay:block;\noverflow: hidden;\n}\n\na.mtxthome:link,a.mtxthome:visited\n{\ndisplay:block;\ntext-decoration: none;\nbackground-image: url(img/menuhome.png);\nwidth: 116px;\npadding: 17px;  \n}\na.mtxthome:hover\n{background-image: url(img/menuhomeactive.png);}\n\na.mtxttokyo:link,a.mtxttokyo:visited\n{\ndisplay:block;\ntext-decoration: none;\nbackground-image: url(img/menuhome.png);\nwidth: 116px;\npadding: 17px;  \n}\na.mtxttokyo:hover,a.mtxttokyo:active\n{font-family:\"invisible\";background-image: url(img/menutokyoactive.png);}\n\na.mtxtland:link,a.mtxtland:visited\n{\ndisplay:block;\ntext-decoration: none;\nbackground-image: url(img/menuhome.png);\nwidth: 116px;\npadding: 17px;  \n}\na.mtxtland:hover\n{font-family:\"invisible\";background-image: url(img/menulandactive.png);}\n\na.mtxteten:link,a.mtxteten:visited\n{\ndisplay:block;\ntext-decoration: none;\nbackground-image: url(img/menuhome.png);\nwidth: 116px;\npadding: 17px;  \n}\na.mtxteten:hover,a.mtxteten:active\n{font-family:\"invisible\";background-image: url(img/menuetenactive.png);}\n\na.mtxtanime:link,a.mtxtanime:visited\n{\ndisplay:block;\ntext-decoration: none;\nbackground-image: url(img/menuhome.png);\nwidth: 116px;\npadding: 17px;  \n}\na.mtxtanime:hover,a.mtxtanime:active\n{font-family:\"invisible\";background-image: url(img/menuanimeactive.png);}\n\na.mtxtmuziek:link,a.mtxtmuziek:visited\n{\nfont-size: 20px; \ncolor: black;\ndisplay:block;\nbackground-color: #FE9A2E;\ntext-decoration: none;\nfont-family: \"Brush Script MT\"\"Brush Script STD\";\nwidth: 116px;\npadding: 17px; \nfont-weight: bold; \n}\na.mtxtmuziek:hover,a.mtxtmuziek:active\n{font-family:\"invisible\";background-image: url(img/menumuziekactive.png);}\n\n#title\n{\npointer-events: none;	\ntext-align: center;\nfont-family: \"rage italic\";	\nfont-size: 110px;	\n}\n\n.content\n{\nbackground-color: white;\nheight: relative;	\nborder-style: solid;\nborder-left-style: none;\nborder-right-style: none;\n}\n\n.all\n{\nmargin: 100px;	\n}\n\n#textitle\n{\ntext-align: center;\nfont-family: \"rage italic\";		\nfont-size: 40px;		\n}\n\n.text\n{\nmargin: 30px;\nfont-family: \"arial\"	\n}\n\n.bottom\n{\n\nheight: 100px; 	\n}\n\n.footer\n{\nborder: solid black 1px;\nborder-bottom-style: none;\nborder-left-style: none;\nborder-right-style: none;\nheight: 30px;\nbackground-color: white;	\n}\n\n.onigiri\n{\nwidth:175px;\nheight:175px;\nposition:absolute;\npointer-events:none;\ntop:10px;\ntext-align: center;\nz-index:100;\n}\n",
+			"file": "style.css",
+			"file_size": 2949,
+			"file_write_time": 130308906390786053,
+			"settings":
+			{
+				"buffer_size": 3147,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/Raphael/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Raphael/Documents/School/WP/self/Site1/default.css",
+		"/C/Users/Raphael/Documents/School/WP/self/Site1/Mainpage.html",
+		"/C/Users/Raphael/Documents/School/WP/self/Startpage/style.css",
+		"/C/Users/Raphael/Documents/School/WP/self/Startpage/Startpage.html",
+		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/muziek.html",
+		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/style.css",
+		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/anime.html",
+		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/eten.html",
+		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/land.html",
+		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/tokyo.html",
+		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/index.html",
+		"/C/Users/Raphael/AppData/Local/Temp/Rar$DRa0.884/website/style.css",
+		"/C/Users/Raphael/AppData/Local/Temp/Rar$DRa0.392/website/index.html",
+		"/C/Users/Raphael/Documents/GitHub/WebsiteJapan/.gitignore",
+		"/C/Users/Raphael/Documents/School/WP/website/index.html",
+		"/C/Users/Raphael/Documents/School/WP/website/style.css",
+		"/C/Users/Raphael/Documents/School/WP/Periode2-site/default.html",
+		"/C/Users/Raphael/Documents/School/WP/self/Site1/Start.html",
+		"/C/Users/Raphael/Documents/School/WP/self/Site1/Default.html",
+		"/C/Users/Raphael/Documents/School/WP/Bruce/startpage/main.html",
+		"/C/Users/Raphael/Documents/School/WP/Bruce/startpage/style.css",
+		"/C/Users/Raphael/Documents/School/WP/Periode2-site/style.css",
+		"/C/Users/Raphael/Documents/School/WP/self/Site1/blog.html",
+		"/C/Users/Raphael/Documents/School/WP/self/Site1/fullcalendar/fullcalendar.css",
+		"/C/Users/Raphael/Desktop/fullcalendar-1.6.4/demos/agenda-views.html",
+		"/C/Users/Raphael/Desktop/fullcalendar-1.6.4/demos/default.html",
+		"/C/Users/Raphael/Documents/School/WP/self/Site1/lib/jquery.min.js",
+		"/C/Users/Raphael/Documents/School/WP/Layout/test 1/style.css",
+		"/C/Users/Raphael/Documents/School/WP/Layout/test 1/anime.html",
+		"/C/Users/Raphael/Documents/School/WP/Layout/test 1/mainpage.html",
+		"/C/Users/Raphael/Documents/School/WP/Layout/test 1/glutamine.html",
+		"/C/Users/Raphael/Documents/School/WP/Layout/test 1/ONEOKROCK.html",
+		"/C/Users/Raphael/Documents/School/WP/Layout/test 1/csscode.html",
+		"/C/Users/Raphael/Documents/School/WP/Layout/test 1/layout.html",
+		"/C/Users/Raphael/Documents/School/WP/Layout/test 1/htmlcode.html",
+		"/C/Users/Raphael/Documents/School/Web programeren/HFD2/HFD2_Opdracht2.html",
+		"/C/Users/Raphael/Documents/School/Web programeren/HFD1/HFD1_opd3.html",
+		"/C/Users/Raphael/Documents/School/Web programeren/HFD1/HFD1_opd2.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"color: #FE9A2E;",
+			"png",
+			";\n",
+			"box",
+			";	",
+			"jpg",
+			"middle",
+			"\">",
+			";\n",
+			">\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12023,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								986,
+								463
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "tokyo.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11995,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								973,
+								973
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "land.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12004,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								973,
+								973
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "eten.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12004,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								974,
+								974
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "anime.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11994,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								972,
+								972
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "muziek.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11998,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								975,
+								975
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3147,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1496,
+								1496
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1471.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "japanwebsite.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
